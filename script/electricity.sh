@@ -1,5 +1,5 @@
 
-for pred_Len in 12 24 48
+for pred_Len in 48 96 336
 do
 for model_name in autoformer Fedformer LSTnet Deepar TCN informer TDformer \
 reformer logtrans CNN_1D GRU_RNN SAE Autoencoder Deepssm Pyraformer \
@@ -13,7 +13,7 @@ python -u main.py \
   --train=1 \
   --exp='deep_learning'\
   --seed=1 \
-  --data_name=illness \
+  --data_name=electricity \
   --seq_len=96 \
   --label_len=48 \
   --pred_len=$pred_Len\
@@ -35,7 +35,7 @@ done
 done
 done
 
-for pred_Len in 12 24 48
+for pred_Len in 48 96 336
 do
 for model_name in SSD
 do
@@ -46,7 +46,7 @@ python -u main.py \
   --train=1 \
   --exp='deep_learning'\
   --seed=1 \
-  --data_name=illness \
+  --data_name=electricity \
   --seq_len=96 \
   --label_len=48 \
   --pred_len=$pred_Len\
@@ -68,7 +68,7 @@ done
 done
 done
 
-for pred_Len in 12 24 48
+for pred_Len in 48 96 336
 do
 for model_name in TFT
 do
@@ -79,7 +79,7 @@ python -u main.py \
   --train=1 \
   --exp='tft'\
   --seed=1 \
-  --data_name=illness \
+  --data_name=electricity \
   --seq_len=96 \
   --label_len=48 \
   --pred_len=$pred_Len\
@@ -101,7 +101,7 @@ done
 done
 done
 
-for pred_Len in 12 24 48
+for pred_Len in 48 96 336
 do
 for model_name in Arima
 do
@@ -112,7 +112,7 @@ python -u main.py \
   --train=1 \
   --exp='arima'\
   --seed=1 \
-  --data_name=illness \
+  --data_name=electricity \
   --seq_len=96 \
   --label_len=48 \
   --pred_len=$pred_Len\
@@ -134,7 +134,7 @@ done
 done
 done
 
-for pred_Len in 12 24 48
+for pred_Len in 48 96 336
 do
 for model_name in WSAES_LSTM
 do
@@ -145,7 +145,7 @@ python -u main.py \
   --train=1 \
   --exp='wases'\
   --seed=1 \
-  --data_name=illness \
+  --data_name=electricity \
   --seq_len=96 \
   --label_len=48 \
   --pred_len=$pred_Len\
@@ -167,7 +167,7 @@ done
 done
 done
 
-for pred_Len in 12 24 48
+for pred_Len in 48 96 336
 do
 for model_name in AST
 do
@@ -178,7 +178,7 @@ python -u main.py \
   --train=1 \
   --exp='gan'\
   --seed=1 \
-  --data_name=illness\
+  --data_name=electricity \
   --seq_len=96 \
   --label_len=48 \
   --pred_len=$pred_Len\

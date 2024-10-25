@@ -70,10 +70,10 @@ pip install -r requirements.txt
 
 # Data Preparation<a href='#all_catelogue'>[Back to Top]</a>
 
-We follow the same setting as previous work. The datasets for all the six benchmarks can be obtained from [[Autoformer](https://github.com/thuml/Autoformer)]. The datasets are placed in the 'all_six_datasets' folder of our project. The tree structure of the files are as follows:
+We follow the same setting as previous work. The datasets for all the six benchmarks can be obtained from [[Autoformer](https://github.com/thuml/Autoformer)]. The datasets are placed in the `datasets` folder of our project. The tree structure of the files are as follows:
 
 ```
-Dateformer\datasets
+\datasets
 ├─electricity
 │
 ├─ETT-small

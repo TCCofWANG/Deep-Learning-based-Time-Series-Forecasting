@@ -46,7 +46,7 @@ class ARIMA():
                                    information_criterion='aic',
                                    njob=-1, suppress_warnings=True)
                 model.fit(ts)
-                forecast = model.predict(n_periods=96)
+                forecast = model.predict(n_periods=self.pred_len)
                 pre.append(forecast)
             predictions = torch.tensor(np.array(pre).reshape(-1, 1))
 
