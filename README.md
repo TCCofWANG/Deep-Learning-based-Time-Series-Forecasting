@@ -2,11 +2,11 @@
 
 A pytorch implementation for the paper: ' *Deep Learning-based Time Series Forecasting*'  Xiaobao Song, Liwei Deng,Hao Wang, Yaoan Zhang, Yuxin He and Wenming Cao (*Correspondence)
 
-# Introduction
+# 🎯Introduction
 
 ![](./image/process.jpg)
 
-# Model Statics 
+# 📚Model Statics 
 
 ![Model](./image/Model.png)
 
@@ -42,7 +42,7 @@ The following are the baseline models included in this project (continuously upd
 - Triformer [PDF](https://arxiv.org/pdf/2204.13767)  (2024)
 - ......
 
-# Dataset Statics
+# 🧾Dataset Statics
 
 ![Dataset](./image/Dataset.png)
 
@@ -58,7 +58,7 @@ The following are the baseline models included in this project (continuously upd
 
 <span id='Install dependecies'/>
 
-## Install dependecies  <a href='#all_catelogue'>[Back to Top]</a>
+## 📝Install dependecies  <a href='#all_catelogue'>[Back to Top]</a>
 
 Install the required packages
 
@@ -68,7 +68,7 @@ pip install -r requirements.txt
 
 <span id='Data Preparation'/>
 
-# Data Preparation<a href='#all_catelogue'>[Back to Top]</a>
+# 👉Data Preparation<a href='#all_catelogue'>[Back to Top]</a>
 
 We follow the same setting as previous work. The datasets for all the six benchmarks can be obtained from [[Autoformer](https://github.com/thuml/Autoformer)]. The datasets are placed in the `datasets` folder of our project. The tree structure of the files are as follows:
 
@@ -87,7 +87,7 @@ We follow the same setting as previous work. The datasets for all the six benchm
 
 <span id='Run Experiment'/>
 
-# Run Experiment<a href='#all_catelogue'>[Back to Top]</a>
+# 🚀Run Experiment<a href='#all_catelogue'>[Back to Top]</a>
 
 We have provided all the experimental scripts for the benchmarks in the `./scripts` folder, which cover all the benchmarking experiments. To reproduce the results, you can run the following shell code.
 
@@ -103,11 +103,11 @@ We have provided all the experimental scripts for the benchmarks in the `./scrip
 
 
 
-## Contact
+## 📧Contact
 
 For any questions or feedback, feel free to contact [Xiaobao Song](2840329517@qq.com) or [Liwei Deng](liweidengdavid@gmail.com).
 
-# Citation
+# 🌟Citation
 
 If you find this code useful in your research or applications, please kindly cite: 
 
@@ -115,7 +115,7 @@ Xiaobao Song, Liwei Deng,Hao Wang*, Yaoan Zhang, Yuxin He and Wenming Cao *“De
 
 
 
-# Acknowledgments
+# 🤝Acknowledgments
 
 We express our gratitude to the following members for their contributions to the project, completed under the guidance of Professor [Hao Wang](https://tccofwang.github.io/index.html):
 
