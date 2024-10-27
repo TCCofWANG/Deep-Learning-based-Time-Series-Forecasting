@@ -1,3 +1,6 @@
-distil: True # whether to use distilling in encoder, using this argument means not using distilling
+version: 'fourier' # 'fourier or wavelet'
+mode_select: 'random' # 'for FEDformer, there are two mode selection method, options: [random, low]'
+modes: 64 # modes to be selected random 64
+moving_avg: [24] # moving average window size
 embed: 'timeF' # time features encoding, options: [timeF, fixed, learned]
 freq: 'h' # freq for time features encoding, options: [s:secondly, t:minutely, h:hourly, d:daily, b:business days, w:weekly, m:monthly], you can also use more detailed freq like 15min or 3h

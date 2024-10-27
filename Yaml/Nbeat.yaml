@@ -2,7 +2,7 @@ d_dimension: 64 # the hidden dimension in model
 stack_dimension: [2,8,3] #'the dimension of each stack in Nbeat'
 quantiles: [0.1,0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9]
 d_nbeat: [2,8,3] #the dimension of each stack in Nbeat
-
+device: 'cuda' # device to run model
 
 
 

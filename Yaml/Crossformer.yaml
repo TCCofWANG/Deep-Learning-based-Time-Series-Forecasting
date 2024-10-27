@@ -1,2 +1,3 @@
 seg_len: 6
 win_size: 2
+device: 'cuda' #device to run model

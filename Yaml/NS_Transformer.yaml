@@ -1,2 +1,5 @@
 p_hidden_dims: [128, 128] # hidden layer dimensions of projector (List)
 p_hidden_layers: 2 # number of hidden layers in projector
+output_attention: False # output attention weights
+embed: 'timeF' # time features encoding, options: [timeF, fixed, learned]
+freq: 'h' # freq for time features encoding, options: [s:secondly, t:minutely, h:hourly, d:daily, b:business days, w:weekly, m:monthly], you can also use more detailed freq like 15min or 3h

@@ -2,7 +2,9 @@ channel_independence_itransformer:  False # whether to use channel_independence 
 inverse: False # inverse output data
 class_strategy: 'projection' # 'projection/average/cls_token'
 use_norm_itransformer: True #use norm and denorm
-
+output_attention: False # whether to output attention in ecoder
+embed: 'timeF' # time features encoding, options: [timeF, fixed, learned]
+freq: 'h' # freq for time features encoding, options: [s:secondly, t:minutely, h:hourly, d:daily, b:business days, w:weekly, m:monthly], you can also use more detailed freq like 15min or 3h
 # iTransformer
 #parser.add_argument('--e_layers', type=int, default=2, help='num of encoder layers')
 #parser.add_argument('--d_layers', type=int, default=1, help='num of decoder layers')

@@ -1,0 +1,2 @@
+d_dimension: 64 #the hidden dimension in model
+device: 'cuda' #device to run model

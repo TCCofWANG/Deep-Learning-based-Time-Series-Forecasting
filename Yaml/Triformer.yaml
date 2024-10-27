@@ -1,1 +1,4 @@
 patch_sizes: [6, 4, 4] # the patch_len in each layer for Triformer advice:24:(4,3,2,2)    96:(6,4,4)    192:(6,4,4,2) 336:(7,4,3,2,2)  720:(6,4,4)'
+d_dimension: 64 #the hidden dimension in model
+device: 'cuda' #device to run model
+# ms-appid:P~B9ECED6F.ArmouryCrate_qmba6cd70vzyy!App

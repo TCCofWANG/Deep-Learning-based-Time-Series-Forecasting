@@ -1,0 +1,3 @@
+d_dimension: 64 #the hidden dimension in model
+d_mark: 5 #the mark dimension in model
+device: 'cuda' #device to run model

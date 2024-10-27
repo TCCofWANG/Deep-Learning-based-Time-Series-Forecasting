@@ -1,3 +1,2 @@
-distil: True # whether to use distilling in encoder, using this argument means not using distilling
 embed: 'timeF' # time features encoding, options: [timeF, fixed, learned]
 freq: 'h' # freq for time features encoding, options: [s:secondly, t:minutely, h:hourly, d:daily, b:business days, w:weekly, m:monthly], you can also use more detailed freq like 15min or 3h
