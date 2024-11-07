@@ -6,6 +6,8 @@ A pytorch implementation for the paper: ' *Deep Learning-based Time Series Forec
 
 ![](./image/process.jpg)
 
+
+
 # 📚Model Statics 
 
 ![Model](./image/Model.png)
@@ -42,9 +44,13 @@ The following are the baseline models included in this project (continuously upd
 - Triformer [PDF](https://arxiv.org/pdf/2204.13767)  (ArXiv 2024)
 - ......
 
+
+
 # 🧾Dataset Statics
 
 ![Dataset](./image/Dataset.png)
+
+
 
 # Get Started
 
@@ -89,7 +95,7 @@ We follow the same setting as previous work. The datasets for all the six benchm
 
 # 🚀Run Experiment<a href='#all_catelogue'>[Back to Top]</a>
 
-We have provided all the experimental scripts for the benchmarks in the `./scripts` folder, which cover all the benchmarking experiments. To reproduce the results, you can run the following shell code.
+We have provided all the experimental scripts for the benchmarks in the `./scripts` folder, which covers all the benchmarking experiments. To reproduce the results, you can run the following shell code.
 
 ```bash
  ./scripts/ETTh1.sh
@@ -105,7 +111,9 @@ We have provided all the experimental scripts for the benchmarks in the `./scrip
 
 ## 📧Contact
 
-For any questions or feedback, feel free to contact [Xiaobao Song](2840329517@qq.com) or [Liwei Deng](liweidengdavid@gmail.com).
+For any questions or feedback, feel free to contact [Xiaobao Song](mailto:2840329517@qq.com) or [Liwei Deng](mailto:liweidengdavid@gmail.com).
+
+
 
 # 🌟Citation
 
@@ -119,5 +127,5 @@ Xiaobao Song, Liwei Deng,Hao Wang*, Yaoan Zhang, Yuxin He and Wenming Cao *“De
 
 We express our gratitude to the following members for their contributions to the project, completed under the guidance of Professor [Hao Wang](https://tccofwang.github.io/index.html):
 
-[Xiaobao Song](https://yumiyumo.github.io/SongXiaobao.github.io/)， [Liwei Deng](https://liweidengdavid.github.io/)，[Yaoan Zhang](2291149420@qq.com)，[Junhao Tan](http://paradise2200.github.io)，[Hongbo Qiu](https://howardqiuu.github.io)，[Xinhe Niu](Jack1299952745@gmail.com)
+[Xiaobao Song](https://yumiyumo.github.io/SongXiaobao.github.io/)， [Liwei Deng](https://liweidengdavid.github.io/)，[Yaoan Zhang](mailto:2291149420@qq.com)，[Junhao Tan](http://paradise2200.github.io)，[Hongbo Qiu](https://howardqiuu.github.io)，[Xinhe Niu](https://xinheniu.github.io/)
 
