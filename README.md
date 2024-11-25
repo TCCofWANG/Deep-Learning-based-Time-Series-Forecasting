@@ -95,7 +95,7 @@ We follow the same setting as previous work. The datasets for all the six benchm
 
 # 🚀Run Experiment<a href='#all_catelogue'>[Back to Top]</a>
 
-We have provided all the experimental scripts for the benchmarks in the `./scripts` folder, which covers all the benchmarking experiments. To reproduce the results, you can run the following shell code.
+We have provided all the experimental scripts for the benchmarks in the `./scripts` folder, which cover all the benchmarking experiments. To reproduce the results, you can run the following shell code.
 
 ```bash
  ./scripts/ETTh1.sh
@@ -119,7 +119,7 @@ For any questions or feedback, feel free to contact [Xiaobao Song](mailto:284032
 
 If you find this code useful in your research or applications, please kindly cite: 
 
-Xiaobao Song, Liwei Deng,Hao Wang*, Yaoan Zhang, Yuxin He and Wenming Cao *“Deep Learning-based Time Series Forecasting*”,  accepted by **Artificial Intelligence Review**
+Song, X., Deng, L., Wang, H. *et al.* Deep learning-based time series forecasting. *Artif Intell Rev* **58**, 23 (2025). https://doi.org/10.1007/s10462-024-10989-8
 
 
 
