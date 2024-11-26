@@ -12,6 +12,8 @@ A pytorch implementation for the paper: ' *Deep Learning-based Time Series Forec
 
 ![Model](./image/Model.png)
 
+<center><p>Tips: Due to our carelessness, we incorrectly reclassified the CNN-1D model to Transformer-based category in paper</p></center>				
+
 The following are the baseline models included in this project (continuously updated):
 
 - ARIMA [PDF](https://ieeexplore.ieee.org/abstract/document/1216141) (IEEE Transactions on Power Systems 2003)
@@ -76,7 +78,7 @@ pip install -r requirements.txt
 
 # 👉Data Preparation<a href='#all_catelogue'>[Back to Top]</a>
 
-We follow the same setting as previous work. The datasets for all the six benchmarks can be obtained from [[Autoformer](https://github.com/thuml/Autoformer)]. The datasets are placed in the `datasets` folder of our project. The tree structure of the files are as follows:
+We follow the same setting as previous work. The datasets for all the six benchmarks can be obtained from [[Autoformer](https://github.com/thuml/Autoformer)]. The datasets are placed in the `datasets` folder of our project. The tree structure of the files is as follows:
 
 ```
 \datasets
@@ -95,7 +97,7 @@ We follow the same setting as previous work. The datasets for all the six benchm
 
 # 🚀Run Experiment<a href='#all_catelogue'>[Back to Top]</a>
 
-We have provided all the experimental scripts for the benchmarks in the `./scripts` folder, which cover all the benchmarking experiments. To reproduce the results, you can run the following shell code.
+We have provided all the experimental scripts for the benchmarks in the `./scripts` folder, which covers all the benchmarking experiments. To reproduce the results, you can run the following shell code.
 
 ```bash
  ./scripts/ETTh1.sh
