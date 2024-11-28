@@ -12,7 +12,7 @@ A pytorch implementation for the paper: ' *Deep Learning-based Time Series Forec
 
 ![Model](./image/Model.png)
 
-<center><p>Tips: Due to our carelessness, we incorrectly reclassified the CNN-1D model to Transformer-based category in paper</p></center>				
+❗️❗️❗️Tips: Due to our carelessness, we incorrectly reclassified the **CNN-1D** model to Transformer-based category in paper. We sincerely apologize for this mistake.
 
 The following are the baseline models included in this project (continuously updated):
 
@@ -24,18 +24,18 @@ The following are the baseline models included in this project (continuously upd
 - TCN [PDF](https://arxiv.org/pdf/1803.01271) [Code](http://github.com/locuslab/TCN)  (ArXiv 2018)
 - GRU [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8053243)  (Artificial Neural Networks and Machine Learning–ICANN 2018)
 - Nbeat [PDF](https://openreview.net/pdf?id=r1ecqn4YwB)  (Journal of biomedical informatics 2020)
-- Dlinear [PDF](https://arxiv.org/pdf/1912.10077)  (AAAl 2022)
 - LSTnet [PDF](https://arxiv.org/pdf/1703.07015) [Code](https://github.com/laiguokun/multivariate-time-series-data?tab=readme-ov-file)  (ACM SIGIR 2018)
 - LogTrans [PDF](https://proceedings.neurips.cc/paper_files/paper/2019/file/6775a0635c302542da2c32aa19d86be0-Paper.pdf)  (NIPS 2019)
 - DeepAR [PDF](https://arxiv.org/pdf/1704.04110)  (NIPS 2020)
-- Reformer [PDF](https://openreview.net/pdf?id=rkgNKkHtvB)  (Open Review 2020)
 - AST [PDF](https://proceedings.neurips.cc/paper/2020/file/c6b8c8d762da15fa8dbbdfb6baf9e260-Paper.pdf) [Code](https://github.com/hihihihiwsf/AST)  (NIPS 2020)
+- Reformer [PDF](https://openreview.net/pdf?id=rkgNKkHtvB)  (ICLR 2020)
 - SSDNet [PDF](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9679135)  (IEEE International Conference on Data Mining2021)
 - Informer [PDF](https://arxiv.org/pdf/2012.07436) [Code](https://github.com/zhouhaoyi/Informer2020)  (AAAl 2021)
 - Autoformer [PDF](http://proceedings.neurips.cc/paper/2021/file/bcc0d400288793e8bdcd7c19a8ac0c2b-Paper.pdf) [Code](https://github.com/thuml/autoformer)  (NlPS 2021)
 - Aliformer [PDF](https://arxiv.org/pdf/2109.08381)  (ArXiv 2021)
 - TST [PDF](https://arxiv.org/pdf/1912.09363v3.pdf) [Code](https://github.com/google-research/google-research/tree/master/tft)  (ArXiv 2021)
 - TDformer [PDF](https://arxiv.org/pdf/2212.08151) [Code](https://github.com/BeBeYourLove/TDformer)  (ArXiv 2022)
+- Dlinear [PDF](https://arxiv.org/pdf/1912.10077)  (AAAl 2022)
 - Fedformer [PDF](https://arxiv.org/pdf/2201.12740v3.pdf) [Code](https://github.com/MAZiqing/FEDformer)  (lCML 2022)
 - NS-Transformer [PDF](https://arxiv.org/pdf/2205.14415v4.pdf) [Code](https://github.com/thuml/Nonstationary_Transformers)  (NIPS 2022)
 - Pyraformer [PDF](https://openreview.net/pdf?id=0EXmFzUn5I) [Code](https://github.com/ant-research/Pyraformer)  (ICLR 2022)
