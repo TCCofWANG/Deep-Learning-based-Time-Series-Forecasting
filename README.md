@@ -121,9 +121,20 @@ For any questions or feedback, feel free to contact [Xiaobao Song](mailto:284032
 
 If you find this code useful in your research or applications, please kindly cite: 
 
+```
+@article{song2024deep,
+  title={Deep learning-based time series forecasting},
+  author={Song, Xiaobao and Deng, Liwei and Wang, Hao and Zhang, Yaoan and He, Yuxin and Cao, Wenming},
+  journal={Artificial Intelligence Review},
+  volume={58},
+  number={1},
+  pages={23},
+  year={2024},
+  publisher={Springer}
+}
+```
+
 Song, X., Deng, L., Wang, H. *et al.* Deep learning-based time series forecasting. *Artif Intell Rev* **58**, 23 (2025). https://doi.org/10.1007/s10462-024-10989-8
-
-
 
 # 🤝Acknowledgments
 
