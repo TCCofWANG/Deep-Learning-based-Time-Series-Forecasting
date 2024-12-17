@@ -1,6 +1,6 @@
 # A Survey: Deep Learning-based Time Series Forecasting 
 
-A pytorch implementation for the paper: ' *Deep Learning-based Time Series Forecasting*'  Xiaobao Song, Liwei Deng,Hao Wang\*, Yaoan Zhang, Yuxin He and Wenming Cao (\*Correspondence)
+A official pytorch implementation for the paper: ' *Deep Learning-based Time Series Forecasting*'  Xiaobao Song, Liwei Deng,Hao Wang\*, Yaoan Zhang, Yuxin He and Wenming Cao (\*Correspondence) [PDF](https://doi.org/10.1007/s10462-024-10989-8)
 
 # 🎯Introduction
 
@@ -12,7 +12,7 @@ A pytorch implementation for the paper: ' *Deep Learning-based Time Series Forec
 
 ![Model](./image/Model.png)
 
-❗️❗️❗️Tips: Due to our carelessness, we incorrectly reclassified the **CNN-1D** model to Transformer-based category in paper. We sincerely apologize for this mistake.
+❗️❗️❗️Tips: Due to our carelessness, we incorrectly reclassified the **CNN-1D** model to the Transformer-based category in the paper. We sincerely apologize for this mistake.
 
 The following are the baseline models included in this project (continuously updated):
 
