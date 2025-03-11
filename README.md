@@ -41,7 +41,7 @@ The following are the baseline models included in this project (continuously upd
 - Pyraformer [PDF](https://openreview.net/pdf?id=0EXmFzUn5I) [Code](https://github.com/ant-research/Pyraformer)  (ICLR 2022)
 - ETSformer [PDF](https://arxiv.org/pdf/2202.01381v2.pdf) [Code](https://github.com/salesforce/etsformer)  (ArXiv 2022)
 - PatchTST [PDF](https://arxiv.org/pdf/2211.14730v2.pdf) [Code](https://github.com/yuqinie98/patchtst)  (ICLR 2023)
-- Crossformer [PDF](https://arxiv.org/pdf/2108.00154) [Code](https://github.com/thinklab-sjtu/crossformer)  (ICLR 2023)
+- Crossformer [PDF](https://openreview.net/pdf?id=vSVLM2j9eie) [Code](https://github.com/thinklab-sjtu/crossformer)  (ICLR 2023)
 - Scaleformer [PDF](https://arxiv.org/pdf/2206.04038v4.pdf) [Code](https://github.com/borealisai/scaleformer)  (ICLR 2024)
 - Triformer [PDF](https://arxiv.org/pdf/2204.13767)  (ArXiv 2024)
 - ......
