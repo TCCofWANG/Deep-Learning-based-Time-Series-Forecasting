@@ -33,7 +33,7 @@ The following are the baseline models included in this project (continuously upd
 - Informer [PDF](https://arxiv.org/pdf/2012.07436) [Code](https://github.com/zhouhaoyi/Informer2020)  (AAAl 2021)
 - Autoformer [PDF](http://proceedings.neurips.cc/paper/2021/file/bcc0d400288793e8bdcd7c19a8ac0c2b-Paper.pdf) [Code](https://github.com/thuml/autoformer)  (NlPS 2021)
 - Aliformer [PDF](https://arxiv.org/pdf/2109.08381)  (ArXiv 2021)
-- TST [PDF](https://arxiv.org/pdf/1912.09363v3.pdf) [Code](https://github.com/google-research/google-research/tree/master/tft)  (ArXiv 2021)
+- TFT [PDF](https://arxiv.org/pdf/1912.09363v3.pdf) [Code](https://github.com/google-research/google-research/tree/master/tft)  (ArXiv 2021)
 - TDformer [PDF](https://arxiv.org/pdf/2212.08151) [Code](https://github.com/BeBeYourLove/TDformer)  (ArXiv 2022)
 - Dlinear [PDF](https://arxiv.org/abs/2205.13504)  (AAAl 2022)
 - Fedformer [PDF](https://arxiv.org/pdf/2201.12740v3.pdf) [Code](https://github.com/MAZiqing/FEDformer)  (lCML 2022)
